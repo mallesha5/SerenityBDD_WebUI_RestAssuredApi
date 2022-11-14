@@ -8,17 +8,17 @@ public class OrangeHRMHomePage extends PageObject {
 	
 	public void enterUname(String username)
 	{
-		$(By.id("txtUsername")).type(username);
+		$(By.name("username")).type(username);
 	}
 	
 	public void enterPassword(String password)
 	{
-		$(By.id("txtPassword")).type(password);
+		$(By.name("password")).type(password);
 	}
 	
 	public void clickLogin()
 	{
-		$(By.id("btnLogin")).click();
+		$(By.className("oxd-button")).click();
 	}
 
 }

@@ -13,7 +13,7 @@ public class Directory {
 	}
 	
 	@Step
-	public void searchEmployee(String empName)
+	public void searchEmployee(String empName) throws Throwable
 	{
 		directory.searchEmployee(empName);
 	}
