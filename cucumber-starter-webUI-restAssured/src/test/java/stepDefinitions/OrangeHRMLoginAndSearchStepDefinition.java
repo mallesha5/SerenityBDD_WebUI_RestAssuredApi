@@ -47,7 +47,7 @@ public class OrangeHRMLoginAndSearchStepDefinition {
 	}
 	
 	@Then("The user should be able to search for employee {string}")
-	public void the_user_should_be_able_to_search_for_employee(String empName) {
+	public void the_user_should_be_able_to_search_for_employee(String empName) throws Exception {
 	    dir.searchEmployee(empName);
 	}
 	

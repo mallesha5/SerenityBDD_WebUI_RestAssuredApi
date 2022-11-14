@@ -17,7 +17,7 @@ public class OrangeHRMDirectory extends PageObject {
 		Assert.assertTrue(getDriver().getCurrentUrl().contains("Directory"));
 	}
 	
-	public void searchEmployee(String empName) throws Throwable
+	public void searchEmployee(String empName) throws Exception
 	{
 		$(By.xpath("//div[contains(@class, \"oxd-autocomplete-text-input\")]/input")).type(empName);
 		
