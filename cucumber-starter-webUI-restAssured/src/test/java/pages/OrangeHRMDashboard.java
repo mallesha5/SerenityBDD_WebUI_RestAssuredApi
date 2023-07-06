@@ -12,6 +12,6 @@ public class OrangeHRMDashboard extends PageObject {
 		System.out.println(getDriver().getTitle());
 		System.out.println(getDriver().getCurrentUrl());
 		Assert.assertTrue(getDriver().getTitle().contains("OrangeHRM"));
-		Assert.assertTrue(getDriver().getCurrentUrl().contains("dashboard"));
+		Assert.assertTrue(getDriver().getCurrentUrl().contains("1dashboard"));
 	}
 }
